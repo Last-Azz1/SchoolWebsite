@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-family: "Microsoft YaHei";
+}
+a{text-decoration: none}
+a:link{text-decoration: none}
+a:visited{text-decoration:none;}
+a:hover{
+    text-decoration: none;
+    color: #A80E14;
+}
+a:hover img{
+    filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;
+}
+a:active{text-decoration:none;}
+
+.logo{
+    width: 100%;
+    height: 118px;
+    background: #E9ECF1;
+
+}
+.logoImg{
+    margin: 10px 0px 0px 0px;
+    width: 471px;
+    height: 97px;
+    float: left;
+}
+.col-lg-3{
+    margin: 40px 0px 0px 328px;
+    float: left;
+    width: 400px;
+}
+.top{
+    width: 1200px;
+    height: 118px;
+    margin: 0 auto;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+nav #nav1{
+    width: 1200px;
+    margin: 0px auto;
+}
+nav ul li a{
+    display:block;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #000!important;
+}
+.navList{
+    float: left;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.navList a:hover{
+    color: #fff!important;
+}
+
+.dropDwon{
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    opacity: 0;
+}
+
+.dropDwon li{
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color:#A80E14;
+    line-height: 50px;
+    text-align: center;
+    transition: all 1s;
+    position: relative;
+    z-index: 1;
+}
+.dropDwon li a{
+    display: block;
+    width: 100px;
+    height: 50px;
+    color: #fff!important;
+}
+.navList{
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+    height: 50px;
+}
+.navList:hover{
+    overflow: visible;
+    color: #000!important;
+    background: #A80E14;
+}
+nav ul .navList:hover .dropDwon{
+    overflow: visible;
+    filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.85;
+}
+
+.carousel{
+    width: 1200px;
+    margin: 0 auto;
+}
+.mod01{
+    width: 1150px;
+    height: 180px;
+    margin: 35px auto 0 auto;
+}
+.img{
+    width: 183px;
+    height: 150px;
+    float: left;
+    margin: 0 4px;
+}
+.imgTitle{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+    bottom: 35px;
+}
+.mod02{
+    width: 1150px;
+    height: 470px;
+    margin: 0 auto 20px auto;
+}
+.newsTitle{
+    width: 250px;
+    height: 50px;
+    color: #A80E14;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto 30px;
+}
+.news{
+    width: 275px;
+    height: 380px;
+    border: 1px solid #EAEAEA;
+    float: left;
+    margin: 0 5px;
+}
+.time{
+    width: 45px;
+    height: 42px;
+    background: #A80E14;
+    color: #fff;
+    position: relative;
+    left: 17px;
+    bottom: 18px;
+    text-align: center;
+}
+.news-txtTitle{
+    width: 210px;
+    height: 47px;
+    margin: 0 auto;
+}
+.news-txtTitleLink{
+    color: #333333;
+    font-weight: bold;
+    font-size: 17px;
+}
+.newsContent{
+    font-size: 12px;
+    width: 235px;
+    height: 55px;
+    margin: 13px auto;
+}
+.timeMonth{
+    font-size: 12px;
+}
+.timeDay{
+    font-size: 16px;
+    font-weight: bold;
+}
+.mod03{
+    width: 1150px;
+    height: 500px;
+    margin: 0 auto 20px auto;
+}
+.notice{
+    width: 570px;
+    height: 400px;
+    float: left;
+    margin-left: 2.5px;
+}
+.noticeTitleL{
+    width: 143px;
+    height: 50px;
+    color: #A80E14;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 7px;
+    float: left;
+}
+.noticeTitleR{
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+    color:rgba(168,14,20,0.75);
+    margin-right: 10px;
+    float: right;
+    text-align: center;
+    line-height: 43px;
+}
+.mod03BG{
+    width: 100%;
+    height:500px;
+    background: #F6F6F6;
+}
+.clear{
+    clear: both;
+}
+.listL{
+    width: 565px;
+    height: 80px;
+}
+.noticeDate{
+    width: 67px;
+    height: 64px;
+    border: 1px solid #C9C9C9;
+    float: left;
+    margin: 7px 0px 0px 3px;
+    text-align: center;
+}
+.noticeWeek{
+    background: #145B7D;
+    height: 31px;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    line-height: 31px;
+    font-weight: bold;
+}
+.noticeMonth{
+    background: #fff;
+    height: 31px;
+    line-height: 31px;
+    color: #434343;
+    margin: 0;
+}
+.noticeContent{
+    width: 470px;
+    height: 64px;
+    float: left;
+    margin: 7px 0px 0px 20px;
+}
+.noticeContentTitle{
+    font-size: 15px;
+    font-weight: bold;
+}
+.noticeContentTitle a{
+    color: #333333;
+}
+.noticeContentTitle a:hover{
+    color: #A80E14;
+}
+.noticeContentTxt a{
+    color: #333333;
+}
+.noticeNum{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #C9C9C9;
+    float: left;
+    margin: 10px 5px 0px 10px;
+    text-align: center;
+}
+.noticeNumContent{
+    width: 470px;
+    height: 64px;
+    float: left;
+    margin: 0px 0px 10px 20px;
+}
+.noticeNum h3{
+    width: 100%;
+    height: 100%;
+    line-height: 43px;
+    color: #fff;
+    background:#C1C1C1;
+    margin: 0;
+}
+
+.mod04{
+    width: 1150px;
+    height: 300px;
+    margin: 0 auto;
+}
+.icon{
+    width: 105px;
+    height: 85px;
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto;
+    color:rgba(168,14,20,0.75);
+}
+
+.quickIcon{
+    width: 125px;
+    height: 120px;
+    margin-left: 2.5px;
+    text-align: center;
+    float: left;
+}
+.iconTxt{
+    font-size: 22px;
+}
+.modTitle{
+    width: 143px;
+    height: 50px;
+    color: #A80E14;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto 35px;
+}
+footer{
+    border-top:1px solid #E60012;
+    border-top-width: 5px;
+    width:  100%;
+    height: 430px;
+    background: #413E3E;
+    opacity: 0.95;
+}
+.fastLink{
+    width:  745px;
+    height: 315px;
+    float: left;
+    line-height: 40px;
+}
+.bottomCenter{
+    width:  1200px;
+    height: 315px;
+    margin: 50px auto 0 auto;
+}
+.QR-code{
+    margin-top: 10px;
+    width:  400px;
+    height: 188px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+.weChat{
+    float: left;
+    margin-left: 40px;
+}
+.linkTop{
+    color: #E9E9E9;
+    font-size: 15px;
+}
+.linkContent a{
+    color: #C8C8C8;
+}
+.fastLinkList{
+    float: left;
+    margin-right: 37px;
+}
+.bottomContact{
+    height: 125px;
+    width: 100%;
+    background: #2F2E2E;
+    color: #CBCBCB;
+    padding-top: 1px;
+}
+.bottomContactTxt{
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    line-height: 30px;
+    margin: 32px auto;
+}
+
+
+@media (max-width: 1170px){
+    nav ul li a{
+        width: 90px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 16px;
+        color: #000!important;
+    }
+    .navList{
+        overflow: hidden;
+        position: relative;
+        width: 90px;
+        height: 50px;
+    }
+    .dropDwon li a{
+        display: block;
+        width: 90px;
+        height: 50px;
+        color: #fff!important;
+    }
+    .dropDwon li{
+        width: 90px;
+        height: 50px;
+        color: #fff;
+        background-color:#A80E14;
+        line-height: 50px;
+        text-align: center;
+        transition: all 1s;
+        position: relative;
+        z-index: 1;
+    }
+    .carousel{
+        width: 1100px;
+        margin: 0 auto;
+    }
+    .col-lg-3{
+        margin: 40px 0px 0px 200px;
+        float: left;
+        width: 400px;
+    }
+}
+@media (max-width: 970px){
+    nav ul li a{
+        width: 75px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 15px;
+        color: #000!important;
+    }
+    .navList{
+        overflow: hidden;
+        position: relative;
+        width: 75px;
+        height: 50px;
+    }
+    .dropDwon li a{
+        display: block;
+        width: 75px;
+        height: 50px;
+        color: #fff!important;
+    }
+    .dropDwon li{
+        width: 75px;
+        height: 50px;
+        color: #fff;
+        background-color:#A80E14;
+        line-height: 50px;
+        text-align: center;
+        transition: all 1s;
+        position: relative;
+        z-index: 1;
+    }
+    .carousel{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .col-lg-3{
+        margin: 40px 0px 0px 80px;
+        float: left;
+        width: 400px;
+    }
+    .mod01{
+        width: 700px;
+        height: 380px;
+        margin: 35px auto 0 auto;
+    }
+    .img{
+        width: 183px;
+        height: 150px;
+        float: left;
+        margin: 0 40px 20px 10px;
+    }
+    .mod02{
+        width: 700px;
+        height: 950px;
+        margin: 0 auto 20px auto;
+    }
+    .news{
+        width: 275px;
+        height: 380px;
+        border: 1px solid #EAEAEA;
+        float: left;
+        margin: 0 50px 30px 20px;
+    }
+    .mod03BG{
+        width: 100%;
+        height:900px;
+        background: #F6F6F6;
+    }
+    .mod03{
+        width: 500px;
+        height: 700px;
+        margin: 0 auto 20px auto;
+    }
+    .mod04{
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        min-width: 500px;
+    }
+    footer{
+        border-top:1px solid #E60012;
+        border-top-width: 5px;
+        width:  100%;
+        height: 600px;
+        background: #413E3E;
+        opacity: 0.95;
+    }
+    .fastLinkList{
+        float: left;
+        margin-right: 20px;
+    }
+    .fastLink{
+        width:  650px;
+        height: 315px;
+        float: left;
+        line-height: 40px;
+    }
+    .bottomCenter{
+        width:  1000px;
+        height: 315px;
+        margin: 50px auto 0 auto;
+    }
+    .QR-code{
+        width:  400px;
+        height: 188px;
+        float: left;
+        color: #fff;
+        text-align: center;
+        font-size: 22px;
+        margin:10px 0px 0px 100px;
+    }
+}
